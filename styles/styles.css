@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header .nav-bar {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1360px;
+  margin: 16px auto;
+  align-items: center;
+}
+
+.nav-container .nav-logo img {
+  width: 139px;
+}
+
+.nav-container .nav-list ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-container .nav-list ul a {
+  text-decoration: none;
+}
