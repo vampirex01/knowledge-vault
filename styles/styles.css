@@ -23,6 +23,12 @@
 
 /* specific portion of styles.css  */
 
+header {
+  background-image: url("../assets/hero-bg.png");
+  background-size: cover;
+  padding-bottom: 180px;
+}
+
 header .nav-bar {
   background-color: rgb(255, 255, 255);
 }
@@ -55,4 +61,73 @@ header .nav-bar {
 
 .nav-container .nav-btn .btn {
   padding: 13px 16px;
+}
+
+#hero {
+  /* border: 1px solid red; */
+  margin: 115px 120px 0 120px;
+}
+
+#hero .hero-container {
+  width: 85%;
+  max-width: 1360px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero-container .e-bar {
+  max-width: 229px;
+  margin: 0 auto;
+  border: none;
+
+  border-radius: 1000px;
+  background-color: #ffffff;
+}
+
+.hero-container .e-bar h3 {
+  color: #469165;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 12px;
+}
+
+.hero-container .hero-inf {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-inf h1 {
+  margin-top: 16px;
+  font-size: 72px;
+  color: #30b868;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.hero-inf h1 .color-white {
+  color: #ffffff;
+}
+
+.hero-inf p {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+#hero .hero-btn {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  /* margin-bottom: 180px; */
+}
+
+.hero-btn .btn-hero2 {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
 }
