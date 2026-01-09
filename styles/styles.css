@@ -339,6 +339,11 @@ header .nav-bar {
   margin-bottom: 24px;
 }
 
+#resolution .res-container .res-mm {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   background-color: #001931;
   padding: 120px 120px 20px 120px;
